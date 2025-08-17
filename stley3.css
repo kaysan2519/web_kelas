@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Body styling */
 body {
   background: linear-gradient(135deg, #89f7fe, #66a6ff);
   min-height: 100vh;
@@ -44,7 +43,6 @@ header nav a:hover {
   color: #222;
 }
 
-/* Contact form container */
 form#contactForm {
   background: white;
   padding: 40px 30px;
@@ -58,7 +56,6 @@ form#contactForm {
   animation: fadeInUp 0.8s ease-in-out;
 }
 
-/* Input fields */
 form#contactForm input,
 form#contactForm textarea {
   width: 100%;
@@ -70,20 +67,17 @@ form#contactForm textarea {
   outline: none;
 }
 
-/* Focus effect */
 form#contactForm input:focus,
 form#contactForm textarea:focus {
   border-color: #66a6ff;
   box-shadow: 0 0 10px rgba(102, 166, 255, 0.4);
 }
 
-/* Textarea */
 form#contactForm textarea {
   resize: none;
   min-height: 120px;
 }
 
-/* Button with gradient animation */
 form#contactForm .send-button {
   background: linear-gradient(270deg, #ff6a00, #ee0979, #ff6a00);
   background-size: 600% 600%;
@@ -103,7 +97,6 @@ form#contactForm .send-button:hover {
   box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
 }
 
-/* Status message */
 #statusMessage {
   margin-top: 15px;
   text-align: center;
@@ -111,10 +104,9 @@ form#contactForm .send-button:hover {
   font-size: 0.95rem;
   color: #333;
   transition: all 0.3s ease;
-  min-height: 30px; /* biar tidak lompat */
+  min-height: 30px;
 }
 
-/* Fade animation */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -126,7 +118,6 @@ form#contactForm .send-button:hover {
   }
 }
 
-/* Button gradient animation */
 @keyframes gradientMove {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
